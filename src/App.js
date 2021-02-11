@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import React from 'react';
+import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import './App.css';
 import Home from './components';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
