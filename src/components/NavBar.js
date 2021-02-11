@@ -4,6 +4,7 @@ import avatar from '../images/avatar.jpeg';
 import { makeStyles } from '@material-ui/core/styles';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Footer from './Footer';
 import { 
     AppBar,
     Toolbar,
@@ -64,8 +65,8 @@ const menuItems = [
         listIcon: <ContactMail/>,
         listText: "Contact",
         listPath: "/contact"
-    },
-]
+    }
+];
 
 const NavBar = () => {
     const[state, setState] = useState({
@@ -143,6 +144,7 @@ const NavBar = () => {
                             open={state.right}
                             onClose={toggleSlider("right", false)}>
                         {sideList("right")}
+                        <Footer/>
                     </Drawer>
                 </Toolbar>
             </AppBar>
