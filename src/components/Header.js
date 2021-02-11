@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         color: "tomato",
-        fontFamily: 'Amatic SC', 
+        // fontFamily: 'Amatic SC', 
         fontFamily: 'Homemade Apple'
     },
     subtitle: {

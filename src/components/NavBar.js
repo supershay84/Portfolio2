@@ -17,12 +17,9 @@ import {
     List,
     Typography,
     Box,
-    Icon,
     ListItemIcon,
 } from '@material-ui/core';
 import {
-    ArrowBack,
-    AssignmentInd,
     Home,
     Apps,
     ContactMail
