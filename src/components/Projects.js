@@ -24,6 +24,9 @@ const useStyles = makeStyles({
        maxWidth: 345,
        margin: "5rem auto"
         
+    },
+    a: {
+        textDecoration: "none"
     }
 })
 
@@ -54,10 +57,12 @@ const Projects = () => {
                         
                         <CardActions>
                             {/* <Button size="small" color="primary">
-                                Share
+                                Demo
                             </Button> */}
                             <Button size="small" color="primary">
-                                Live Demo
+                            <a  className={classes.a} href="https://github.com/supershay84/Project-1">
+                                GitHub
+                                </a>
                             </Button>
                         </CardActions>
                 </Card> 
@@ -83,10 +88,12 @@ const Projects = () => {
                         
                         <CardActions>
                             {/* <Button size="small" color="primary">
-                                Share
+                                Demo
                             </Button> */}
                             <Button size="small" color="primary">
-                                Live Demo
+                            <a className={classes.a} href="https://github.com/supershay84/Project-3">
+                                GitHub
+                                </a>
                             </Button>
                         </CardActions>
                 </Card> 
@@ -112,10 +119,12 @@ const Projects = () => {
                         
                         <CardActions>
                             {/* <Button size="small" color="primary">
-                                Share
+                                Demo
                             </Button> */}
                             <Button size="small" color="primary">
-                                Live Demo
+                            <a className={classes.a} href="https://github.com/supershay84/TheVoid">
+                                GitHub
+                                </a>
                             </Button>
                         </CardActions>
                 </Card> 
@@ -141,10 +150,12 @@ const Projects = () => {
                         
                         <CardActions>
                             {/* <Button size="small" color="primary">
-                                Share
+                                Demo
                             </Button> */}
                             <Button size="small" color="primary">
-                                Live Demo
+                            <a className={classes.a} href="https://github.com/supershay84/Record-Collection">
+                                GitHub
+                                </a>
                             </Button>
                         </CardActions>
                 </Card> 
