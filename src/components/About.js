@@ -45,12 +45,13 @@ const InputField = withStyles({
 })(TextField);
 
 
-const Contact = () => {
+const About = () => {
     const classes = useStyles();
     return (
         <Box component="div">
             <NavBar/>
-            <Grid container justify="center">
+            <h1>COMING SOON</h1>
+            {/* <Grid container justify="center">
                 <Box component="form" className={classes.form}>
                     <Typography variant="h5"
                                 style={{
@@ -98,9 +99,9 @@ const Contact = () => {
                     </a>
                     </Button>
                 </Box>
-            </Grid>
+            </Grid> */}
         </Box>
     )
 }
 
-export default Contact;
+export default About;

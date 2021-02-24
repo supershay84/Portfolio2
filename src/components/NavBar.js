@@ -62,8 +62,8 @@ const menuItems = [
     },
     {
         listIcon: <ContactMail/>,
-        listText: "Contact",
-        listPath: "/contact"
+        listText: "About",
+        listPath: "/about"
     }
 ];
 
@@ -122,6 +122,8 @@ const NavBar = () => {
                     </ListItemIcon>
                     <ListItemText className={classes.listItem}      primary="Contact"/>
                 </ListItem>     */}
+
+                
             </List>
         </Box>
     )
@@ -131,7 +133,7 @@ const NavBar = () => {
             <AppBar position="static" style={{background: "#222"}}>
                 <Toolbar>
                     
-                    <IconButton onClick={toggleSlider("right", true)}>
+                    <IconButton onClick={toggleSlider("left", true)}>
                         <MoreVertIcon style={{color: "tomato"}}/>
                     </IconButton>
 
@@ -139,10 +141,10 @@ const NavBar = () => {
                         Portfolio
                     </Typography>
                     
-                    <Drawer anchor="right"
-                            open={state.right}
-                            onClose={toggleSlider("right", false)}>
-                        {sideList("right")}
+                    <Drawer anchor="left"
+                            open={state.left}
+                            onClose={toggleSlider("left", false)}>
+                        {sideList("left")}
                         <Footer/>
                     </Drawer>
                 </Toolbar>
