@@ -117,7 +117,7 @@ const Resume = () => {
           <Typography variant="h4" align="center" className={classes.heading}>
               Experience
               <br/>
-              <a className={classes.resume} href={url}>Resume</a>
+              <a className={classes.resume} href={url}>See Full Resume</a>
           </Typography>
 
 

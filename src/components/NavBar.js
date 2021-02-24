@@ -27,18 +27,20 @@ import {
 
 const useStyles = makeStyles((theme) => ({
     menuContainer: {
-        width: 250,
+        width: '100%',
         background: '#511',
         height: '100%'
     },
     avatar: {
         display: 'block',
-        margin: '0.5rem auto',
+        margin: '1.5rem auto',
         width: theme.spacing(13),
         height: theme.spacing(13)
     },
     listItem: {
-        color: 'tan'
+        color: 'tan',
+        margin: '0.5rem auto'
+    
     }
 }));
 

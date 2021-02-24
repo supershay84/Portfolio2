@@ -93,7 +93,9 @@ const Contact = () => {
                             endIcon={<SendIcon/>}
                             className={classes.button}
                     >
+                    <a href="mailto:theaharris84@gmail.com">
                         Contact Me
+                    </a>
                     </Button>
                 </Box>
             </Grid>

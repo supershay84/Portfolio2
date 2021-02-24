@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Home from './components';
 import Resume from './components/Resume';
@@ -12,10 +12,12 @@ function App() {
     <>
     <CssBaseline/>
     <Router>
+    <Switch>
     <Route exact path={"/"} component={Home}/>
     <Route path={"/resume"} component={Resume}/>
     <Route path={"/projects"} component={Projects}/>
     <Route path={"/contact"} component={Contact}/>
+    </Switch>
     </Router>
     </>
   );
