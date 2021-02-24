@@ -66,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
             },
             "&:nth-of-type(2n):before": {
                 right: "auto",
-                left: "-0.625rem",
+                left: "-1.625rem",
                 borderColor: "tomato tomato transparent transparent",
             }
         }
@@ -143,7 +143,6 @@ const Resume = () => {
                             //   align="center"
                               style={{color:"tan"}}
                    >
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus iusto earum illum dignissimos ex, eum facere saepe voluptatibus nisi minus neque optio, atque nobis doloribus voluptates eaque ea nulla?
                   </Typography>
               </Box>
 
@@ -168,7 +167,6 @@ const Resume = () => {
                             //   align="center"
                               style={{color:"tan"}}
                    >
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus iusto earum illum dignissimos ex, eum facere saepe voluptatibus nisi minus neque optio, atque nobis doloribus voluptates eaque ea nulla?
                   </Typography>
               </Box>
 
@@ -193,7 +191,6 @@ const Resume = () => {
                             //   align="center"
                               style={{color:"tan"}}
                    >
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus iusto earum illum dignissimos ex, eum facere saepe voluptatibus nisi minus neque optio, atque nobis doloribus voluptates eaque ea nulla?
                   </Typography>
               </Box>
 
@@ -218,7 +215,6 @@ const Resume = () => {
                             //   align="center"
                               style={{color:"tan"}}
                    >
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus iusto earum illum dignissimos ex, eum facere saepe voluptatibus nisi minus neque optio, atque nobis doloribus voluptates eaque ea nulla?
                   </Typography>
               </Box>
 
@@ -243,7 +239,6 @@ const Resume = () => {
                             //   align="center"
                               style={{color:"tan"}}
                    >
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus iusto earum illum dignissimos ex, eum facere saepe voluptatibus nisi minus neque optio, atque nobis doloribus voluptates eaque ea nulla?
                   </Typography>
               </Box>
           </Box>
