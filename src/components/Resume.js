@@ -109,7 +109,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Resume = () => {
     const classes = useStyles();
-    let url = "https://docs.google.com/document/d/1D_v8aghupOOMVUgvG8_0y6NqDiTicySoHvn9TzeSrfA"
+    let url = "https://docs.google.com/document/d/1D_v8aghupOOMVUgvG8_0y6NqDiTicySoHvn9TzeSrfA/export?format=pdf"
     return (
      <>
       <NavBar/>
@@ -117,7 +117,7 @@ const Resume = () => {
           <Typography variant="h4" align="center" className={classes.heading}>
               Experience
               <br/>
-              <a className={classes.resume} href={url}>See Full Resume</a>
+              <a className={classes.resume} href={url}>Download Full Resume</a>
           </Typography>
 
 
